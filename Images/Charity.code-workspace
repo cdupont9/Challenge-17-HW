@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "Portfolio",
+			"path": ".."
+		},
+		{
+			"name": "Vcode",
+			"path": "../.."
+		}
+	],
+	"settings": {}
+}
