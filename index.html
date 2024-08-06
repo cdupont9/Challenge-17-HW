@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="styles.css">
+
 
 
 <link rel ="stylesheet" href="Style-1.css"/>
@@ -38,12 +40,6 @@
 </head>
 
 
-<body>
-</div>
-<div class="text-container">
-    <p>UX/UI Designer and Researcher</p>
-    <h1>Hello, my name is Charity Dupont</h1>
-</div>
 
 
 
@@ -71,11 +67,10 @@
 
 
 
-
 <style>
     footer {
-        background-color: #ed42c8bb;
-        padding: 20px;
+        background-color: #c30e564d;
+        padding: 10px;
         text-align: center;
         position: fixed;
         bottom: 0;
@@ -88,16 +83,24 @@
         color: #000000;
     }
 </style>
+
+
+
+
 </head>
 <body>
 
-<footer>
-    <p> charitydupont</p>
-</footer>
-</body>
-</html>
 
 
+
+<div class="text-container">
+    <p>UX/UI Designer and Researcher</p>
+    <h1>Hello, my name is Charity Dupont</h1>
+</div>
+
+<div class="img-container">
+    <img src="Images/Main landing Photo.png" alt="Main landing page image">
+</div>
 
 <div class="about-me-box">
     <h2>About Me</h2>
@@ -105,3 +108,59 @@
         As a new UX/UI designer and researcher with a background in education, I bring a unique perspective on user interaction. My training at Columbia University Bootcamp equipped me with essential skills in user-centered design and research. I value feedback and continuous improvement, and my teaching experience enhances my communication skills. I'm passionate about creating impactful user experiences and committed to ongoing learning.
     </p>
 </div>
+
+<footer>
+    <p>charitydupont</p>
+</footer>
+
+
+
+<style>
+    .img-container img {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 50%;
+        height: 100%;
+        overflow: hidden; 
+    }
+
+   
+    @media (max-width: 768px) {
+    .img-container img {
+        display: none;
+    }
+}
+
+/* Media Query for medium screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .img-container img {
+        display: none;
+       
+    }
+}
+
+/* Media Query for large screens */
+@media (min-width: 1025px) {
+    .img-container img {
+        display: block;
+        width: 50%;
+        height: 100%;
+        top: 0;
+        right: 0;
+    }
+}
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  background: pink;
+  overflow-x: hidden; 
+}
+
+nav {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: linear-gradient( #FFC0CB);
+  width: 45px;
+  overflow: hidden;
+  transition: width 0.2s linear;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.5); 
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  transition: all 0.5s ease;
+}
+
+.logo img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.logo span {
+  font-weight: bold;
+  padding-left: 18px;
+  font-size: 18px;
+  text-transform: uppercase;
+  display: none; 
+}
+
+nav:hover .logo span {
+  display: inline; 
+}
+
+a {
+  color: black;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  width: 100%; 
+}
+
+.fas {
+  width: 45px;
+  text-align: center;
+}
+
+.nav-item {
+  margin-left: 10px;
+  display: none; 
+}
+
+nav:hover .nav-item {
+  display: inline; 
+}
+
+a:hover {
+  background: lightcoral;
+}
+
+nav:hover {
+  width: 200px;
+  transition: width 0.5s ease;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: none;
+  color: white;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.img {
+  width: 100%; 
+  height: auto; 
+  object-fit: cover;
+  display: block;
+}
+
+
+
+.text-container {
+  color: #010101;
+  max-width: 500px; 
+  margin: 200px 20 20px 150px; 
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+ 
+
+}
+
+
+
+.about-me-box {
+  background-color: #be5062; 
+  border: 2px solid #ff69b4; 
+  padding: 20px;
+  border-radius: 0; 
+  max-width: 500px; 
+  margin: 200px 20 20px 100px; 
+ text-align: left; 
+ margin-top: 20px;
+margin-bottom: 10px;
+
+
+}
+
+.about-me-box h2 {
+  color: #000; 
+  margin: 0 0 10px 0; 
+}
+
+.about-me-box p {
+  color: #000; 
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  background: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
