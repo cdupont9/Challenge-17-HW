@@ -2,93 +2,59 @@
 
 
 
-<link rel ="stylesheet" href="Style-1.css"/>
-
-
-
+<html lang="en">
 <head>
-    <body>
-        <nav>
-            <ul>
-                <li>
-                    <a href=" #" class="logo">
-                        <img src="Images/Charity.JPG" alt="Search Icon" width="20" height="20">
-                        <span class="nav-item">Home</span>
-                        
-                
-                    </a>
-                        <li> <a href="#"> 
-                            <img src="Images/magnifying-glass.png" alt="Search Icon" width="20" height="20">
-                            <i class="fas.fa-Search"> </i>
-                            <span class="nav-item">Search</span>
-            </a>
-                <li> <a href="#">
-                    <img src="Images/home.png" alt="Project Icon" width="20" height="20">
-                     <i class="fas.fa-projects"> </i>
-                    <span class="nav-item">Projects</span>
-
-                </a> </li>
-                <li> <a href="#"> 
-                    <img src="Images/user.png" alt="About Me Icon" width="20" height="20">
-                    <i class="fas.fa-about me"> </i>
-                    <span class="nav-item">About Me</span>
-
-                </a> </li>
-            </ul>
-        </nav>
-    </body>
-</head>
-
-
-
-
-
-</body>
-
-
-
-
-
-<style>
-    .img-container img {
-        position: fixed;
-        top: 0;
-        right: 0;
-        width: 50%;
-        height: 100%;
-        overflow: hidden; 
-    }
- 
-</style>
-
-<div class="img-container">
-    <img src="Images/Main landing Photo.png" alt="main landing page of  image">
-</div>
-
-
-
-<style>
-    footer {
-        background-color: #c30e564d;
-        padding: 10px;
-        text-align: center;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        box-sizing: border-box;
-    }
-    footer p {
-        margin: 0;
-        font-size: 14px;
-        color: #000000;
-    }
-</style>
-
-
-
-
+   
+   
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html" class="logo">
+                    <img src="Images/Charity.JPG" alt="Logo" width="45" height="45">
+                    <span class="nav-item"></span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="Images/magnifying-glass.png" alt="Search Icon" width="20" height="20">
+                    <i class="fas fa-search"></i>
+                    <span class="nav-item">Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="projects.html">
+                    <img src="Images/home.png" alt="Project Icon" width="20" height="20">
+                    <i class="fas fa-projects"></i>
+                    <span class="nav-item">Projects</span>
+                </a>
+            </li>
+            <li>
+              <li>
+                <a href="aboutme.html" class="active">
+                    <img src="Images/user.png" alt="About Me Icon" width="20" height="20">
+                    <i class="fas fa-about-me"></i>
+                    <span class="nav-item">About Me</span>
+                </a>
+          
+            </li>
+        </ul>
+    </nav>
+    
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -96,71 +62,90 @@
 <div class="text-container">
     <p>UX/UI Designer and Researcher</p>
     <h1>Hello, my name is Charity Dupont</h1>
+
 </div>
+
+
+
 
 <div class="img-container">
     <img src="Images/Main landing Photo.png" alt="Main landing page image">
 </div>
 
+<script src="script.js">
+
+
+</script>
+
+
+
+
 <div class="about-me-box">
-    <h2>About Me</h2>
-    <p>
-        As a new UX/UI designer and researcher with a background in education, I bring a unique perspective on user interaction. My training at Columbia University Bootcamp equipped me with essential skills in user-centered design and research. I value feedback and continuous improvement, and my teaching experience enhances my communication skills. I'm passionate about creating impactful user experiences and committed to ongoing learning.
-    </p>
+  <h2>About Me</h2>
+  <p>
+      As a new UX/UI designer and researcher with a background in education, I bring a unique perspective on user interaction. My training at Columbia University Bootcamp equipped me with essential skills in user-centered design and research. I value feedback and continuous improvement, and my teaching experience enhances my communication skills. I'm passionate about creating impactful user experiences and committed to ongoing learning.
+  </p>
+  <button class="aboutmepage" onclick="window.location.href='aboutme.html'">More About Me</button>
 </div>
+
+
+
 
 <footer>
     <p>charitydupont</p>
 </footer>
 
 
+</head>
+<body>
+  <div class="skills-container">
+    <div class="skill-box"> User Research:  Conducted interviews, usability tests; synthesized insights. </div>
+    <div class="skill-box">Wireframing & Prototyping:  Proficient in Figma, Sketch; iterative design.</div>
+    <div class="skill-box">Visual Design:  Expertise in typography, color theory, layout, HTML ,CSS.</div>
+    <div class="skill-box">Visual Design:  Expertise in typography, color theory, layout.</div>
+    <div class="skill-box">Collaboration:  Strong communicator; worked with cross-functional teams</div>
+  </div>
 
-<style>
-    .img-container img {
-        position: fixed;
-        top: 0;
-        right: 0;
-        width: 50%;
-        height: 100%;
-        overflow: hidden; 
-    }
+  <div class="my-work-container">
+    <div class="project-box">
+      <div class="project-content">
+        <img src="Images/image 1.png" alt="Project 1 Image" class="project-photo">
+        <h3>MEETLY</h3>
+        <p>Mobile App</p>
+       <button class="project-button" onclick="window.location.href='meetlycasestudy.html'">View Meetly Case Study</button>
 
-   
-    @media (max-width: 768px) {
-    .img-container img {
-        display: none;
-    }
-}
+      </div>
+    </div>
+    <div class="project-box">
+      <div class="project-content">
+        <img src="Images/Mac Studio.png" alt="Project 2 Image" class="project-photo">
 
-/* Media Query for medium screens */
-@media (min-width: 769px) and (max-width: 1024px) {
-    .img-container img {
-        display: none;
-       
-    }
-}
+        <h3>US Dept. of Education </h3>
+        <p>Desktop & Mobile App</p>
+      
+        <button class="project-button" onclick="window.location.href='usdeptof.html'">View Dept. of Ed Case Study</button>
 
-/* Media Query for large screens */
-@media (min-width: 1025px) {
-    .img-container img {
-        display: block;
-        width: 50%;
-        height: 100%;
-        top: 0;
-        right: 0;
-    }
-}
-    </style>
+      </div>
+    </div>
+    <div class="project-box">
+      <div class="project-content">
+        <img src="Images/Mac Studio-2.png" alt="Project 3 Image" class="project-photo">
+        <h3>American Clothing Pick</h3>
+        <p>Desktop</p>
+        <button class="project-button" onclick="window.location.href='americancasestudy.html'">View American Clothing Pick up Case Study</button>
 
-
-
-
-
-
-
-
-
-
-
+      </div>
+    </div>
+    
+      </div>
+    </div>
+  </div>
+</body>
+</html>
 
 
+
+
+<div class="bottom-space">
+  <!-- Your webpage content here -->
+</div>
