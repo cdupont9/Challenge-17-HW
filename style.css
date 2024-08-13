@@ -1,0 +1,527 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family:  monospace;
+}
+
+body {
+  background: pink;
+  overflow-x: hidden; 
+}
+
+nav {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: linear-gradient( #96092199);
+  width: 45px;
+  overflow: hidden;
+  transition: width 0.2s linear;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.5); 
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  transition: all 0.5s ease;
+}
+
+.logo img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.logo span {
+  font-weight: bold;
+  padding-left: 18px;
+  font-size: 18px;
+  text-transform: uppercase;
+  display: none; 
+}
+
+nav:hover .logo span {
+  display: inline; 
+}
+
+a {
+  color: black;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  width: 100%; 
+}
+
+.fas {
+  width: 45px;
+  text-align: center;
+}
+
+.nav-item {
+  margin-left: 10px;
+  display: none; 
+}
+
+nav:hover .nav-item {
+  display: inline; 
+}
+
+a:hover {
+  background: lightcoral;
+}
+
+nav:hover {
+  width: 200px;
+  transition: width 0.5s ease;
+}
+
+
+
+
+/* CSS for the navigation bar */
+nav {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: linear-gradient(#96092199);
+  width: 45px;
+  overflow: hidden;
+  transition: width 0.2s linear;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.5); 
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  transition: all 0.5s ease;
+}
+
+.logo img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.logo span {
+  font-weight: bold;
+  padding-left: 18px;
+  font-size: 18px;
+  text-transform: uppercase;
+  display: none; 
+}
+
+nav:hover .logo span {
+  display: inline; 
+}
+
+a {
+  color: black;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  width: 100%; 
+}
+
+.fas {
+  width: 45px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: none;
+  color: white;
+}
+
+.header h1 {
+  font-size: 40px;
+  font-family: monospace;
+}
+
+.img {
+  width: 100%; 
+  height: auto; 
+  object-fit: cover;
+  display: block;
+}
+
+
+
+.text-container {
+  color: #010101;
+  max-width: 500px; 
+  margin: 200px 20 20px 150px; 
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+ 
+
+}
+
+
+
+.about-me-box {
+  background-color: #ae1e3620; 
+  border: 2px solid #ff69b4; 
+  padding: 30px;
+  border-radius: 0; 
+  max-width: 500px; 
+  margin: 300px 300 300px 300px; 
+ text-align: left; 
+ margin-top: 20px;
+margin-bottom: 30px;
+
+
+}
+
+.about-me-box h2 {
+  color: #000; 
+  margin: 0 0 10px 0;
+  font-family: monospace;
+  font-size: 30px;
+}
+
+.about-me-box p {
+  color: #000; 
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: monospace;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  background: #333;
+}
+
+
+
+
+
+
+.about-me-box2 {
+  background-color: #ae1e3620; 
+  border: 2px solid #ff69b4; 
+  padding: 30px;
+  border-radius: 0; 
+  max-width: 500px; 
+  margin: 300px 300 300px 300px; 
+ text-align: left; 
+ margin-top: 20px;
+margin-bottom: 30px;
+
+
+}
+
+.about-me-box2 h2 {
+  color: #000; 
+  margin: 0 0 10px 0;
+  font-family: monospace;
+  font-size: 30px;
+}
+
+.about-me-box2 p {
+  color: #000; 
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: monospace;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+    footer {
+        background-color: #c30e564d;
+        padding: 10px;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    footer p {
+        margin: 0;
+        font-size: 14px;
+        color: #000000;
+    }
+
+
+
+
+
+    .img-container img {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 50%;
+        height: 50%;
+        overflow: hidden;   
+  
+        
+    }
+
+   
+@media (max-width: 768px) {
+    .img-container img {
+        display: none;
+    }
+}
+
+/* Media Query for medium screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .img-container img {
+        display: none;
+       
+    }
+}
+
+/* Media Query for large screens */
+@media (min-width: 1025px) {
+    .img-container img {
+        display: block;
+        width: 40%;
+        height: 75%;
+        top: 0;
+        right: 0;
+    }
+}
+
+
+
+
+
+
+/* Skills section */
+.skills-container {
+  display: flex;
+  align-items: stretch;
+  gap: 10px;
+  bottom: -80;
+  left: 10px; 
+  margin-top: 20px;
+}
+
+.skill-box {
+  height: 200px;
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(20px);
+  border-radius: 8px;
+  box-shadow: 10px 10px 11px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; 
+  right: -100px; 
+  color: #d5d5d5;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  padding: 20px;
+  max-width: 500px;
+  margin: 30px;
+  text-align: left;
+}
+
+/* My Work section */
+
+.my-work-container {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  gap: 10px; 
+  padding: 70px;
+  margin-top: 50px; 
+  min-height: 100vh; 
+  position: relative; 
+  z-index: 10; 
+}
+
+/* Styling for individual project boxes */
+.project-box {
+  background-color: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(20px);
+  border-radius: 8px;
+  box-shadow: 10px 10px 11px rgba(0, 0, 0, 0.2);
+  width: 400px; 
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d5d5d5;
+  text-align: center;
+  padding: 10px; 
+  box-sizing: border-box;
+  margin-top: 0; 
+  position: relative; 
+}
+
+
+/* Media Query for tablets and small screens (768px and below) */
+@media screen and (max-width: 768px) {
+  .my-work-container {
+    padding: 30px; 
+    margin-top: 20px; 
+  }
+
+  .project-box {
+    width: 300px; 
+    height: 180px; 
+  }
+}
+
+/* Media Query for mobile screens (576px and below) */
+@media screen and (max-width: 576px) {
+  .my-work-container {
+    padding: 20px;
+    margin-top: 10px; 
+    justify-content: center; 
+  }
+
+  .project-box {
+    width: 100%; 
+    height: auto; 
+    max-width: 400px; 
+  }
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .about-me-box {
+    width: 90%; /* Slightly wider on smaller screens */
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .about-me-box {
+    width: 95%; /* Nearly full width on very small screens */
+    padding: 10px; /* Adjust padding for very small screens */
+    font-size: 14px; /* Adjust font size for readability */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .skills-container {
+    flex-direction: column;
+    align-items: center; /* Center items vertically */
+    gap: 15px; /* Adjust gap for smaller screens */
+    margin-top: 15px; /* Adjust top margin */
+  }
+
+  .skill-box {
+    width: 80%; /* Make the skill boxes wider on smaller screens */
+    height: auto; /* Allow height to adjust automatically */
+    font-size: 16px; /* Increase font size for readability */
+    padding: 15px; /* Adjust padding */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .skills-container {
+    width: 100%; /* Ensure full width on very small screens */
+  }
+
+  .skill-box {
+    width: 90%; /* Make the skill boxes take up more space */
+    height: auto; /* Allow height to adjust automatically */
+    font-size: 14px; /* Adjust font size for readability */
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+  
