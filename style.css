@@ -191,10 +191,10 @@ a {
   padding: 30px;
   border-radius: 0; 
   max-width: 500px; 
-  margin: 300px 300 300px 300px; 
+  margin: 400px 400 400px 400px; 
  text-align: left; 
- margin-top: 20px;
-margin-bottom: 30px;
+ margin-top: 70px;
+margin-bottom: 70px;
 
 
 }
@@ -430,7 +430,7 @@ body {
 }
 
 
-/* Media Query for tablets and small screens (768px and below) */
+
 @media screen and (max-width: 768px) {
   .my-work-container {
     padding: 30px; 
@@ -443,7 +443,7 @@ body {
   }
 }
 
-/* Media Query for mobile screens (576px and below) */
+
 @media screen and (max-width: 576px) {
   .my-work-container {
     padding: 20px;
@@ -462,16 +462,16 @@ body {
 /* Media Queries */
 @media screen and (max-width: 768px) {
   .about-me-box {
-    width: 90%; /* Slightly wider on smaller screens */
-    padding: 15px; /* Adjust padding for smaller screens */
+    width: 90%;
+    padding: 15px; 
   }
 }
 
 @media screen and (max-width: 576px) {
   .about-me-box {
-    width: 95%; /* Nearly full width on very small screens */
-    padding: 10px; /* Adjust padding for very small screens */
-    font-size: 14px; /* Adjust font size for readability */
+    width: 95%; 
+    padding: 10px; 
+    font-size: 14px;
   }
 }
 
@@ -489,29 +489,29 @@ body {
 @media screen and (max-width: 768px) {
   .skills-container {
     flex-direction: column;
-    align-items: center; /* Center items vertically */
-    gap: 15px; /* Adjust gap for smaller screens */
-    margin-top: 15px; /* Adjust top margin */
+    align-items: center;
+    gap: 15px; 
+    margin-top: 15px; 
   }
 
   .skill-box {
-    width: 80%; /* Make the skill boxes wider on smaller screens */
-    height: auto; /* Allow height to adjust automatically */
-    font-size: 16px; /* Increase font size for readability */
-    padding: 15px; /* Adjust padding */
+    width: 80%; 
+    height: auto; 
+    font-size: 16px; 
+    padding: 15px;
   }
 }
 
 @media screen and (max-width: 576px) {
   .skills-container {
-    width: 100%; /* Ensure full width on very small screens */
+    width: 100%; 
   }
 
   .skill-box {
-    width: 90%; /* Make the skill boxes take up more space */
-    height: auto; /* Allow height to adjust automatically */
-    font-size: 14px; /* Adjust font size for readability */
-    padding: 10px; /* Adjust padding for smaller screens */
+    width: 90%; 
+    height: auto; 
+    font-size: 14px;
+    padding: 10px; 
   }
 }
 
@@ -525,3 +525,81 @@ body {
 
 
   
+
+
+
+
+
+.nav-item {
+  margin-left: 10px;
+  display: none; 
+}
+
+nav:hover .nav-item {
+  display: inline; 
+}
+
+a:hover {
+  background: lightcoral;
+}
+
+nav:hover {
+  width: 200px;
+  transition: width 0.5s ease;
+}
+
+
+nav a.active {
+  background: lightcoral; 
+  color: white; }
+
+
+
+
+
+
+
+h1 {
+  font-size: 2.5rem; 
+  color: #333; 
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif; 
+}
+
+
+
+p {
+  font-size: 1.2rem; 
+  color: #666; 
+  line-height: 1.6; 
+  margin-bottom: 30px;
+  font-family: 'Arial', sans-serif; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.image-container img {
+  float: right;
+  max-width: 95%;
+  height: auto;
+}
+@media screen and (max-width: 768px) {
+  .image-container {
+      text-align: center; 
+      padding-right: 0; 
+  }
+
+  .image-container img {
+      width: 80%; 
+      height: auto;
+  }
+}
