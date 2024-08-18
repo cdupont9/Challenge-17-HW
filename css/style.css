@@ -141,6 +141,19 @@ a {
 }
 
 
+.nav-item {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-item.active {
+  color: #ff3399; /* Highlight color */
+}
+
+
 
 
 
@@ -397,36 +410,82 @@ body {
 
 /* My Work section */
 
+
 .my-work-container {
   display: flex;
-  flex-wrap: wrap; 
-  justify-content: space-between; 
-  gap: 10px; 
-  padding: 70px;
-  margin-top: 50px; 
-  min-height: 100vh; 
-  position: relative; 
-  z-index: 10; 
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between project boxes */
 }
 
-/* Styling for individual project boxes */
 .project-box {
-  background-color: rgba(255, 255, 255, 0.06);
-  backdrop-filter: blur(20px);
-  border-radius: 8px;
-  box-shadow: 10px 10px 11px rgba(0, 0, 0, 0.2);
-  width: 400px; 
-  height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #d5d5d5;
-  text-align: center;
-  padding: 10px; 
+  flex: 1;
+  max-width: calc(33.333% - 20px); /* Three columns, adjust as needed */
   box-sizing: border-box;
-  margin-top: 0; 
-  position: relative; 
 }
+
+.project-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-content {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-content:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.project-photo {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  display: block;
+  transition: opacity 0.3s;
+}
+
+.project-content:hover .project-photo {
+  opacity: 0.8;
+}
+
+h3 {
+  margin: 10px 0 5px;
+}
+
+p {
+  margin: 0 0 15px;
+}
+
+.project-button {
+  background-color: #ff66b2;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.project-button:hover {
+  background-color: #ff3399;
+}
+
+
+
+
+
 
 
 /* Media Query for tablets and small screens (768px and below) */

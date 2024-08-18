@@ -6,40 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
 
-</head>
-<body>
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html" class="logo">
-                    <img src="Images/Charity.JPG" alt="Logo" width="45" height="45">
-                    <span class="nav-item"></span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="Images/magnifying-glass.png" alt="Search Icon" width="20" height="20">
-                    <i class="fas fa-search"></i>
-                    <span class="nav-item">Search</span>
-                </a>
-            </li>
-            <li>
-                <a href="projects.html">
-                    <img src="Images/home.png" alt="Project Icon" width="20" height="20">
-                    <i class="fas fa-projects"></i>
-                    <span class="nav-item">Projects</span>
-                </a>
-            </li>
-            <li>
-              <li>
-                <a href="aboutme.html" class="active">
-                    <img src="Images/user.png" alt="About Me Icon" width="20" height="20">
-                    <i class="fas fa-about-me"></i>
-                    <span class="nav-item">About Me</span>
-                </a>
-          
-            </li>
-        </ul>
+    
+
+        <nav>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html" class="logo">
+                            <img src="Images/Charity.JPG" alt="Logo" width="45" height="45">
+                            <span class="nav-item">Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="search">
+                            <img src="Images/magnifying-glass.png" alt="Search Icon" width="20" height="20">
+                            <span class="nav-item">Search</span>
+                        </a>
+
+                        <a href="aboutme.html" class="aboutme">
+                            <img src="Images/user.png" alt="About Me Icon" width="20" height="20">
+                            <span class="nav-item">About Me</span>
+                        </a>
+
+                    </li>
+                    <li class="dropdown">
+                        <a href="projects.html" class="projects">
+                            <img src="Images/home.png" alt="Project Icon" width="20" height="20">
+                            <span class="nav-item">Projects</span>
+                        </a>
+                        <ul class="dropdown-content">
+                            <li>
+                                <a href="meetlycasestudy.html">
+                                    
+                                    <span>Meetly Case Study</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="americancasestudy.html">
+                                   
+                                    <span>American Case Study</span>
+                                </a>
+                            </li>
+                            <li>
+                                
+                
+                    </li>
+                                <a href="usdeptof.html">
+                                    
+                                    <span>US Dept of Education Case Study</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        
+                </ul>
+            </nav>
+            
+        
+
     </nav>
     
 
@@ -54,40 +79,6 @@
 
 
 
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html" class="logo">
-                    <img src="Images/Charity.JPG" alt="Logo" width="45" height="45">
-                    <span class="nav-item"></span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="Images/magnifying-glass.png" alt="Search Icon" width="20" height="20">
-                    <i class="fas fa-search"></i>
-                    <span class="nav-item">Search</span>
-                </a>
-            </li>
-            <li>
-                <a href="projects.html">
-                    <img src="Images/home.png" alt="Project Icon" width="20" height="20">
-                    <i class="fas fa-projects"></i>
-                    <span class="nav-item">Projects</span>
-                </a>
-            </li>
-            <li>
-              <li>
-                <a href="aboutme.html" class="active">
-                    <img src="Images/user.png" alt="About Me Icon" width="20" height="20">
-                    <i class="fas fa-about-me"></i>
-                    <span class="nav-item">About Me</span>
-                </a>
-          
-            </li>
-        </ul>
-    </nav>
-    
 
 
 
@@ -152,39 +143,37 @@
 
   <div class="my-work-container">
     <div class="project-box">
-      <div class="project-content">
-        <img src="Images/image 1.png" alt="Project 1 Image" class="project-photo">
-        <h3>MEETLY</h3>
-        <p>Mobile App</p>
-       <button class="project-button" onclick="window.location.href='meetlycasestudy.html'">View Meetly Case Study</button>
-
-
-      </div>
+        <a href="meetlycasestudy.html" class="project-link">
+            <div class="project-content">
+                <img src="Images/image 1.png" alt="Project 1 Image" class="project-photo">
+                <h3>MEETLY</h3>
+                <p>Mobile App</p>
+            </div>
+        </a>
     </div>
     <div class="project-box">
-      <div class="project-content">
-        <img src="Images/Mac Studio.png" alt="Project 2 Image" class="project-photo">
-
-        <h3>US Dept. of Education </h3>
-        <p>Desktop & Mobile App</p> 
-      
-        <button class="project-button" onclick="window.location.href='usdeptof.html'">View Dept. of Ed Case Study</button>
-
-      </div>
+        <a href="usdeptof.html" class="project-link">
+            <div class="project-content">
+                <img src="Images/Mac Studio.png" alt="Project 2 Image" class="project-photo">
+                <h3>US Dept. of Education</h3>
+                <p>Desktop & Mobile App</p>
+            </div>
+        </a>
     </div>
     <div class="project-box">
-      <div class="project-content">
-
-        <img src="Images/Mac Studio-2.png" alt="Project 3 Image" class="project-photo">
-        <h3>American lClothing Pick</h3>
-        <p>Desktop</p>
-        <button class="project-button" onclick="window.location.href='americancasestudy.html'">View American Clothing Pick up Case Study</button>
-
-      </div>
+        <a href="americancasestudy.html" class="project-link">
+            <div class="project-content">
+                <img src="Images/Mac Studio-2.png" alt="Project 3 Image" class="project-photo">
+                <h3>American Clothing Pickup</h3>
+                <p>Desktop</p>
+            </div>
+        </a>
     </div>
-    
-    
-  </div>
+</div>
+
+
+
+
 </body>
 </html>
 

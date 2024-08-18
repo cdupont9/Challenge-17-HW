@@ -15,17 +15,13 @@
 
     
 
-
-
-
-    <script src="script.js" defer></script> 
 </head>
 <body>
     <nav>
         <ul>
             <li>
                 <a href="index.html" class="logo">
-                    <img src="Images/Charity.JPG" alt="Logo" width="20" height="20">
+                    <img src="Images/Charity.JPG" alt="Logo" width="45" height="45">
                     <span class="nav-item"></span>
                 </a>
             </li>
@@ -37,31 +33,121 @@
                 </a>
             </li>
             <li>
-                <a href="projects.html" class="active">
+                <a href="projects.html">
                     <img src="Images/home.png" alt="Project Icon" width="20" height="20">
                     <i class="fas fa-projects"></i>
                     <span class="nav-item">Projects</span>
                 </a>
             </li>
             <li>
-                <a href="#">
-                    <img src="Images/user.png" alt="About Me Icon" width="20" height="20">
-                    <i class="fas fa-user"></i>
-                    <span class="nav-item">About Me</span>
+            
+                    <a href="aboutme.html" class="active">
+                        <img src="Images/user.png" alt="About Me Icon" width="20" height="20">
+                        <i class="fas fa-about-me"></i>
+                       <span class="nav-item">About Me</span>
+                  
+                
                 </a>
             </li>
         </ul>
     </nav>
+
+
+
+
     
- 
-
-
-    <main>
-        <h1>Projects Page</h1>
-        <p>Here is where you can add details about your projects.</p>
+        <main class="projects-main">
+            <h1>Projects Page</h1>
+            <p>Here is where you can add details about your projects.</p>
+        </main>
+        
      
+        <div class="my-work-container">
+            <div class="project-box">
+                <a href="meetlycasestudy.html" class="project-link">
+                    <div class="project-content">
+                        <img src="Images/image 1.png" alt="Project 1 Image" class="project-photo">
+                        <h3>MEETLY</h3>
+                        <p>Mobile App</p>
+                    </div>
+                </a>
+            </div>
+            <div class="project-box">
+                <a href="usdeptof.html" class="project-link">
+                    <div class="project-content">
+                        <img src="Images/Mac Studio.png" alt="Project 2 Image" class="project-photo">
+                        <h3>US Dept. of Education</h3>
+                        <p>Desktop & Mobile App</p>
+                    </div>
+                </a>
+            </div>
+            <div class="project-box">
+                <a href="americancasestudy.html" class="project-link">
+                    <div class="project-content">
+                        <img src="Images/Mac Studio-2.png" alt="Project 3 Image" class="project-photo">
+                        <h3>American Clothing Pickup</h3>
+                        <p>Desktop</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
     </main>
     
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Case Study Poll</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="poll-container">
+            <h2>Vote for Your Favorite Case Study</h2>
+            <form id="pollForm">
+                <label>
+                    <input type="radio" name="case-study" value="Meetly"> Meetly
+                </label>
+                <label>
+                    <input type="radio" name="case-study" value="American Clothing Pickup"> American Clothing Pickup
+                </label>
+                <label>
+                    <input type="radio" name="case-study" value="US Department of Education"> US Department of Education
+                </label>
+                <button type="button" onclick="submitPoll()">Submit Vote</button>
+            </form>
+    
+            <div id="results"></div>
+        </div>
+    
+        <script src="poll.js"></script>
+    </body>
+    </html>
+
+
+    
+
+
+
+
+
+
+
+
     <footer>
         <p>charitydupont</p>
     </footer>

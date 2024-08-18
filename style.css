@@ -87,69 +87,6 @@ nav:hover {
 
 
 
-/* CSS for the navigation bar */
-nav {
-  position: fixed; 
-  top: 0;
-  left: 0;
-  height: 100%;
-  background: linear-gradient(#96092199);
-  width: 45px;
-  overflow: hidden;
-  transition: width 0.2s linear;
-  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.5); 
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 10px 0;
-  transition: all 0.5s ease;
-}
-
-.logo img {
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-}
-
-.logo span {
-  font-weight: bold;
-  padding-left: 18px;
-  font-size: 18px;
-  text-transform: uppercase;
-  display: none; 
-}
-
-nav:hover .logo span {
-  display: inline; 
-}
-
-a {
-  color: black;
-  font-size: 14px;
-  display: flex;
-  align-items: center;
-  padding: 20px;
-  width: 100%; 
-}
-
-.fas {
-  width: 45px;
-  text-align: center;
-}
-
-
-
-
-
-
-
-
-
-
-
 
 .header {
   padding: 80px;
@@ -265,18 +202,6 @@ margin-bottom: 30px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 body {
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
@@ -333,199 +258,12 @@ body {
     }
 
    
-@media (max-width: 768px) {
-    .img-container img {
-        display: none;
-    }
-}
-
-/* Media Query for medium screens */
-@media (min-width: 769px) and (max-width: 1024px) {
-    .img-container img {
-        display: none;
-       
-    }
-}
-
-/* Media Query for large screens */
-@media (min-width: 1025px) {
-    .img-container img {
-        display: block;
-        width: 40%;
-        height: 75%;
-        top: 0;
-        right: 0;
-    }
-}
-
-
-
-
-
-
-/* Skills section */
-.skills-container {
-  display: flex;
-  align-items: stretch;
-  gap: 10px;
-  bottom: -80;
-  left: 10px; 
-  margin-top: 20px;
-}
-
-.skill-box {
-  height: 200px;
-  width: 200px;
-  background-color: rgba(255, 255, 255, 0.06);
-  backdrop-filter: blur(20px);
-  border-radius: 8px;
-  box-shadow: 10px 10px 11px rgba(0, 0, 0, 0.2);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative; 
-  right: -100px; 
-  color: #d5d5d5;
-  font-family: 'Poppins', sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  text-align: center;
-  padding: 20px;
-  max-width: 500px;
-  margin: 30px;
-  text-align: left;
-}
-
-/* My Work section */
-
-.my-work-container {
-  display: flex;
-  flex-wrap: wrap; 
-  justify-content: space-between; 
-  gap: 10px; 
-  padding: 70px;
-  margin-top: 50px; 
-  min-height: 100vh; 
-  position: relative; 
-  z-index: 10; 
-}
-
-/* Styling for individual project boxes */
-.project-box {
-  background-color: rgba(255, 255, 255, 0.06);
-  backdrop-filter: blur(20px);
-  border-radius: 8px;
-  box-shadow: 10px 10px 11px rgba(0, 0, 0, 0.2);
-  width: 400px; 
-  height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #d5d5d5;
-  text-align: center;
-  padding: 10px; 
-  box-sizing: border-box;
-  margin-top: 0; 
-  position: relative; 
-}
-
-
-
-@media screen and (max-width: 768px) {
-  .my-work-container {
-    padding: 30px; 
-    margin-top: 20px; 
-  }
-
-  .project-box {
-    width: 300px; 
-    height: 180px; 
-  }
-}
-
-
-@media screen and (max-width: 576px) {
-  .my-work-container {
-    padding: 20px;
-    margin-top: 10px; 
-    justify-content: center; 
-  }
-
-  .project-box {
-    width: 100%; 
-    height: auto; 
-    max-width: 400px; 
-  }
-}
-
-
-/* Media Queries */
-@media screen and (max-width: 768px) {
-  .about-me-box {
-    width: 90%;
-    padding: 15px; 
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .about-me-box {
-    width: 95%; 
-    padding: 10px; 
-    font-size: 14px;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-/* Media Queries */
-@media screen and (max-width: 768px) {
-  .skills-container {
-    flex-direction: column;
-    align-items: center;
-    gap: 15px; 
-    margin-top: 15px; 
-  }
-
-  .skill-box {
-    width: 80%; 
-    height: auto; 
-    font-size: 16px; 
-    padding: 15px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .skills-container {
-    width: 100%; 
-  }
-
   .skill-box {
     width: 90%; 
     height: auto; 
     font-size: 14px;
     padding: 10px; 
   }
-}
-
-
-
-
-
-
-
-
-
-
-  
-
 
 
 
@@ -576,17 +314,6 @@ p {
   font-family: 'Arial', sans-serif; 
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .image-container img {
   float: right;
   max-width: 95%;
@@ -603,3 +330,79 @@ p {
       height: auto;
   }
 }
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #ff99cc, #ff66b2, #ff3399);
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  position: relative; /* Ensures the poll-container is positioned relative to the body */
+}
+
+.poll-container {
+  background-color: rgba(255, 255, 255, 0.8); /* Slightly more opaque for better visibility */
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px; /* Shrinks the poll */
+  text-align: left;
+  position: absolute; /* Position it absolutely */
+  top: 20px; /* Distance from the top */
+  right: 20px; /* Distance from the right */
+}
+
+.poll-container h2 {
+  margin-bottom: 20px;
+  font-size: 18px; /* Smaller font for the title */
+}
+
+.poll-container label {
+  display: block;
+  margin: 10px 0;
+}
+
+.poll-container button {
+  background-color: #ff66b2;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.poll-container button:hover {
+  background-color: #ff3399;
+}
+
+#results {
+  margin-top: 20px;
+  font-size: 14px; /* Smaller font for the results */
+}
+
+
+
+.projects-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ensures it takes full height of the viewport */
+  text-align: center;
+}
+
+.projects-main h1 {
+  font-size: 24px; /* Adjust font size as needed */
+  margin-bottom: 10px;
+}
+
+.projects-main p {
+  font-size: 16px; /* Adjust font size as needed */
+  margin-top: 0;
+}
+
+
+
